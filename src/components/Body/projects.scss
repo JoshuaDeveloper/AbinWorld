@@ -1,0 +1,326 @@
+#eduabin.project-img{ 
+    height: 600px;
+    width: 600px;
+    background-image: url('../../assets/images/aquabin.png');
+    display: flex;
+    margin: 0 auto;
+    a{
+        text-decoration: none;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+#eduabin:hover{
+    background-image: url('../../assets/images/aquabin_color.jpg');
+}
+
+#aquabin.project-img-2{ 
+    height: 600px;
+    width: 600px;
+    background-image: url('../../assets/images/eduabin.png');
+    display: flex;
+    margin: -130px auto auto;
+    a{
+        text-decoration: none;
+        padding: 0;
+    }
+}
+
+#aquabin:hover{
+    background-image: url('../../assets/images/eduabin_color1.jpg');
+}
+
+#gemmadei.project-img{ 
+    height: 600px;
+    width: 600px;
+    background-image: url('../../assets/images/abinhome.png');
+    display: flex;
+    margin: 0 auto;
+    a{
+        text-decoration: none;
+    }
+}
+
+#gemmadei:hover{
+    background-image: url('../../assets/images/home_color.jpg');
+}
+
+#abinhome.project-img-2{ 
+    height: 600px;
+    width: 600px;
+    background-image: url('../../assets/images/gemmadei.png');
+    display: flex;
+    margin: -130px auto auto;
+    a{
+        text-decoration: none;
+    }
+}
+
+#abinhome:hover{
+    background-image: url('../../assets/images/gemmadei_color.jpg');
+}
+
+
+#croi.project-img{ 
+    height: 600px;
+    width: 600px;
+    background-image: url('../../assets/images/desing.png');
+    display: flex;
+    margin: 0 auto;
+    a{
+        text-decoration: none;
+    }
+}
+
+#croi:hover{
+    background-image: url('../../assets/images/design_color.jpg');
+}
+
+#desing.project-img-2{ 
+    height: 600px;
+    width: 600px;
+    background-image: url('../../assets/images/croi.png');
+    display: flex;
+    margin: -130px auto auto;
+    a{
+        text-decoration: none;
+    }
+}
+
+#desing:hover{
+    background-image: url('../../assets/images/croi_color.jpg');
+}
+
+#kids.project-img{ 
+    height: 600px;
+    width: 600px;
+    background-image: url('../../assets/images/lotengo.png');
+    display: flex;
+    margin: 0 auto;
+    a{
+        text-decoration: none;
+    }
+}
+
+#kids:hover{
+    background-image: url('../../assets/images/lotengo_color.jpg');
+}
+
+#lotengo.project-img-2{ 
+    height: 600px;
+    width: 600px;
+    background-image: url('../../assets/images/kids.png');
+    display: flex;
+    margin: -130px auto auto;
+    a{
+        text-decoration: none;
+    }
+}
+
+#lotengo:hover{
+    background-image: url('../../assets/images/kids_color.jpg');
+}
+
+.project-text{
+    font-family: open-sans-bold;
+    color: white;
+    font-size: 50px;
+    margin-bottom: 0;
+    a{
+        text-decoration: none;
+        padding: 0;
+    }
+}
+
+.project-a{
+    color: white;
+    font-family: open-sans-light;
+    font-size: 50px;
+}
+
+.create-text-h1{
+    font-family: open-sans-light;
+    max-width: 600px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.create-row{
+    margin-top: 6rem;
+}
+
+.create-button-img{
+    width: 200px;
+}
+
+.create-button{
+    background: none;
+}
+
+.project-img-text{
+    background-color: rgba(0, 0, 0, 0.445);
+    display: flex;
+    align-items:flex-end;
+    margin-right: 40%;
+    margin-left: 5px;
+    margin-top: 45%;
+    font-family: open-sans;
+}
+
+.project-img-text-2{
+    background-color: rgba(0, 0, 0, 0.445);
+    display: flex;
+    align-items:flex-end;
+    margin-right: 5px;
+    margin-left: 40%;
+    margin-top: 45%;
+    font-family: open-sans;
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.project-style{
+    background-image: url('../../assets/images/proyectos_final.jpg');
+    background-size: contain;
+    padding-inline: 5%;
+}
+
+@media only screen and (max-width: 600px){
+    .create-text-h1{
+        max-width: 100% !important;
+    }
+    #eduabin.project-img{
+        max-height: 300px;
+        max-width: 300px;
+        background-image: url('../../assets/images/aquabin.png');
+    }
+
+    .create-button-img{
+        max-width: 100px;
+    }
+
+    #eduabin.project-img{
+        height: 300px;
+        width: 300px;
+        background-image: url('../../assets/images/aquabin.png');
+        display: flex;
+        margin: 0 auto;
+        a{
+            text-decoration: none;
+            padding: 0;
+            margin: 0;
+        }
+    }
+
+    #aquabin.project-img-2{
+        height: 300px;
+        width: 300px;
+        background-image: url('../../assets/images/eduabin.png');
+        display: flex;
+        margin: 0 auto;
+        a{
+            text-decoration: none;
+            padding: 0;
+        }
+    }
+
+    #gemmadei.project-img{
+        height: 300px;
+        width: 300px;
+        background-image: url('../../assets/images/abinhome.png');
+        display: flex;
+        margin: 0 auto;
+        a{
+            text-decoration: none;
+        }
+    }
+
+    #abinhome.project-img-2{
+        height: 300px;
+        width: 300px;
+        background-image: url('../../assets/images/gemmadei.png');
+        display: flex;
+        margin: 0 auto;
+        a{
+            text-decoration: none;
+        }
+    }
+
+    #croi.project-img{
+        height: 300px;
+        width: 300px;
+        background-image: url('../../assets/images/desing.png');
+        display: flex;
+        margin: 0 auto;
+        a{
+            text-decoration: none;
+        }
+    }
+
+    #desing.project-img-2{
+        height: 300px;
+        width: 300px;
+        background-image: url('../../assets/images/croi.png');
+        display: flex;
+        margin: 0 auto;
+        a{
+            text-decoration: none;
+        }
+    }
+
+    .project-img-text{
+        background-color: rgba(0, 0, 0, 0.445);
+        font-size: 12px;
+        display: flex;
+        align-items:flex-end;
+        margin-right: 0%;
+        margin-left: 5px;
+        margin-top: 45%;
+        font-family: open-sans;
+    }
+
+    .project-img-text-2{
+        background-color: rgba(0, 0, 0, 0.445);
+        font-size: 12px;
+        display: flex;
+        align-items:flex-end;
+        margin-right: 5px;
+        margin-left: 0%;
+        margin-top: 45%;
+        font-family: open-sans;
+    }
+
+    #kids.project-img{
+        height: 300px;
+        width: 300px;
+        background-image: url('../../assets/images/lotengo.png');
+        display: flex;
+        margin: 0 auto;
+        a{
+            text-decoration: none;
+        }
+    }
+
+    #lotengo.project-img-2{
+        height: 300px;
+        width: 300px;
+        background-image: url('../../assets/images/kids.png');
+        display: flex;
+        margin: 0 auto;
+        a{
+            text-decoration: none;
+        }
+    }
+
+    .project-text{
+        font-size: 30px;
+    }
+
+    .project-a{
+        font-size: 20px ;
+    }
+}

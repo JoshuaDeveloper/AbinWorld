@@ -1,0 +1,146 @@
+@font-face {
+    font-family: metropolis;
+    src:url('../../assets/fonts/METROPOLIS-REGULAR.OTF');
+}
+
+@font-face {
+    font-family: open-sans-bold;
+    src:url('../../assets/fonts/OpenSans-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: open-sans;
+    src:url('../../assets/fonts/OpenSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: metropolis-bol;
+    src:url('../../assets/fonts/METROPOLIS-BOLD.OTF');
+}
+
+@font-face {
+    font-family: opensans-condensed-light;
+    src:url('../../assets/fonts/OpenSans_Condensed-Light.ttf');
+}
+
+@font-face {
+    font-family: open-sans-light;
+    src:url('../../assets/fonts/OpenSans-Light.ttf')
+}
+
+.create-style{
+    background-color: black;
+    padding-inline: 5%;
+}
+
+.create-text{
+    color: white;
+    font-size: 10rem;
+    font-family: opensans-condensed-light;
+}
+
+.create-text-h4{
+    color: white;
+    font-family: open-sans-light;
+}
+
+
+#albor.create-col-style{
+    background-image: url('../../assets/images/albor_color.jpg');
+    background-size: cover;
+    min-height: 550px;
+    padding-top: 65%;
+}
+
+#albor:hover{
+    background-image: url('../../assets/images/albor_color2.jpg');
+}
+
+
+#mentor.create-col-style{
+    background-image: url('../../assets/images/developer_color.jpg');
+    background-size: cover;
+    min-height: 550px;
+    padding-top: 65%;
+    
+}
+#mentor:hover{
+    background-image: url('../../assets/images/mentor_color2.jpg');
+}
+
+#developer.create-col-style{
+    background-image: url('../../assets/images/mentor_color.jpg');
+    background-size: cover;
+    min-height: 550px;
+    padding-top: 65%;
+    
+}
+
+#developer:hover{
+    background-image: url('../../assets/images/developer_color3.jpg');
+}
+
+.create-p-title{
+    color: white;
+    font-family: open-sans-bold;
+    font-size: 60px;
+    text-decoration: underline;
+}
+
+.create-p-body{
+    color:white;
+    font-family: open-sans-light;
+    font-size: 20px;
+}
+
+.create-margin{
+    margin-left: 15%;
+    padding-right: 3%;
+    background-color: rgba(0, 0, 0, 0.349);
+    a{
+        text-decoration: none;
+    }
+}
+
+.create-text-h4-width{
+    width: 50%;
+}
+
+@media only screen and (max-width: 600px){
+    .create-text{
+        font-size: 4rem;
+    }
+    .create-text-h4-width{
+        width: 100%;
+        text-align: center;
+    }
+    #albor.create-col-style{
+        background-image: url('../../assets/images/albor_color.jpg');
+        background-size: cover;
+        min-height: 300px;
+        margin-bottom: 5px;
+    }
+
+    #mentor.create-col-style{
+        background-image: url('../../assets/images/developer_color.jpg');
+        background-size: cover;
+        min-height: 300px;
+        margin-bottom: 5px;
+    }
+
+    #developer.create-col-style{
+        background-image: url('../../assets/images/mentor_color.jpg');
+        background-size: cover;
+        min-height: 300px;
+    }
+
+    .create-p-title{
+        font-size: 30px;
+        text-decoration: underline;
+    }
+    .create-p-body{
+        font-size: 15px;
+    }
+}
+
+

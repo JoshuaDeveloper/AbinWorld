@@ -1,0 +1,50 @@
+@font-face {
+    font-family: metropolis-bold;
+    src:url('../../assets/fonts/METROPOLIS-BOLD.OTF');
+}
+
+.banner-style{
+    background-image: url('../../assets/images/portada_final.jpg');
+    background-size: cover;
+    height: 60rem;
+    padding-inline: 5%;
+  a {
+    font-family: metropolis-bold;
+    display:inline-block;
+    font-size:90px;
+    line-height:1.5em;
+    position:relative;
+    color:gray;
+    text-decoration: none;
+  }
+}
+
+
+.text-efect{
+}
+
+.banner-style:hover{
+    a:before {
+      content:attr(title);
+      display:block;
+      position:absolute;
+      width:0%;
+      height:1.5em;
+      overflow:hidden;
+      color:white;
+      transition:all 5s linear;
+    }
+    a:hover:before {
+      width:100%;
+    }
+}
+
+
+
+@media only screen and (max-width: 600px){
+  .text-efect{
+    a{
+      font-size: 30px;
+    }
+  }
+}

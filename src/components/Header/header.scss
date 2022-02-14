@@ -1,0 +1,152 @@
+$img-nosotros-1 :'../../assets/images/nosotros1.jpg';
+$img-nosotros-2:'../../assets/images/nosotros2.jpg';
+$img-nosotros-3:'../../assets/images/nosotros_3.jpg';
+$background-servicios-1 : '../../assets/images/servicios1.jpg';
+$background-servicios-2 : '../../assets/images/servicios2.jpg';
+$background-holding-1 : '../../assets/images/holding_1.jpg';
+$background-holding-2 : '../../assets/images/holding_2.jpg';
+$background-eventos-1 : '../../assets/images/eventos_1.jpg';
+$background-eventos-2 : '../../assets/images/eventos_2.jpg';
+$background-articulos-1: '../../assets/images/articulos_1.jpg';
+$background-articulos-2 : '../../assets/images/articulos_2.jpg';
+
+
+
+.img-logo{
+    height: 5rem;
+}
+
+.nav-link{
+    color: white;
+    font-family: opensans-condensed-light;
+    font-size: 4rem;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+
+.offcanvas-end{
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: black;
+    width: 100vw;
+}
+
+.header-style{
+    background-color: black;
+}
+
+
+.navbar-dark .navbar-toggler{
+    border: none;
+    border-color: disabled;
+    color: transparent;
+}
+
+.navbar-toggler{
+    border: none;
+}
+
+.navbar-dark .navbar-toggler-icon{
+    width: 40px;
+    height: 40px;
+    background: transparent url('../../assets/images/menu_white.png');
+    opacity: none;
+}
+
+.btn-close{
+    width: 40px;
+    height: 40px;
+    background: transparent url('../../assets/images/close_white.png');
+    opacity: 0;
+}
+
+#img-nosotros1{
+    width: 500px;
+    height: 500px;
+    background-image: url($img-nosotros-1);
+}
+
+#img-nosotros2{
+    width: 500px;
+    height: 500px;
+    background-image: url($img-nosotros-3);
+    background-size: cover ;
+}
+
+#img-service1{
+    width: 500px;
+    height: 500px;
+    background-image: url($background-servicios-1);
+    background-size: cover;
+}
+
+#img-service2{
+    width: 500px;
+    height: 500px;
+    background-image: url($background-servicios-2);
+    background-size: cover;
+}
+
+#img-holding1{
+    width: 500px;
+    height: 500px;
+    background-image: url($background-holding-1);
+    background-size: cover;
+}
+
+#img-holding2{
+    width: 500px;
+    height: 500px;
+    background-image: url($background-holding-2);
+    background-size: cover;
+}
+
+#img-eventos1{
+    width: 500px;
+    height: 500px;
+    background-image: url($background-eventos-1);
+    background-size: cover;
+}
+
+#img-eventos2{
+    width: 500px;
+    height: 500px;
+    background-image: url($background-eventos-2);
+    background-size: cover;
+}
+
+#img-articulos1{
+    width: 500px;
+    height: 500px;
+    background-image: url($background-articulos-1);
+    background-size: cover;
+}
+
+#img-articulos2{
+    width: 500px;
+    height: 500px;
+    background-image: url($background-articulos-2);
+    background-size: cover;
+}
+
+.header-style{
+    overflow-y: hidden;
+}
+
+.header-navbar{
+    text-align: right !important;
+}
+
+@media only screen and (max-width: 600px){
+    .nav-link{
+        font-size: 3rem;
+    }
+    .offcanvas-end{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .header-navbar{
+        text-align: center !important;
+    }
+}

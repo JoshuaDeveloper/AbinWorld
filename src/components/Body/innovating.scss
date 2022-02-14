@@ -1,0 +1,61 @@
+.innovating-style{
+    background-image: url('../../assets/images/innnovating_background_final.jpg');
+    background-size:cover;
+    padding-inline: 5%;
+    min-height: 45rem;
+}
+
+.inn-div{
+    display: table;
+    min-height: 30rem;
+    width: 50%;
+}
+
+
+.innovating_text{
+    display: table-cell;
+    vertical-align:bottom;
+    a{
+        color: white;
+        font-family: open-sans-bold;
+        font-size: 45px;
+    }
+    h2{
+        color: white;
+        font-family: open-sans-light;
+        font-size:40px;
+        margin-bottom: 0;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .innovating_text{
+        text-align: center;
+        a{
+            font-size: 20px;
+        }
+        h2{
+            color: white;
+            font-family: open-sans-light;
+            font-size:20px;
+            margin-bottom: 0;
+        }
+    }
+
+    .inn-div{
+        width: 100%;
+        min-height: 15rem;
+    }
+
+    .innovating-style{
+        min-height: 20rem;
+    }
+
+
+}
+
+
+
+
+
+
