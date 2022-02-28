@@ -30,11 +30,11 @@ function Projects() {
               <Col md={6} sm={12}></Col>
             </Row>
             <Row className='mt-5'>
-              <Col >
+              <Col lg={6}>
                 <div className='project-img' id='eduabin'>
                     <div className='project-img-text text-start'>
                       <div>
-                        <a className='border-0 create-button' href='https://www.aquabin.abin.world'><img src={Aquabin} className='create-button-img'></img></a>
+                        <a className='border-0 create-button' href='https://www.aquabin.abin.world' target='_blank'><img src={Aquabin} className='create-button-img'></img></a>
                         <p className='text-light'>
                           Somos un equipo de emprendedores y profesionales de diferentes rubros deseosos
                           de generar un cambio en la cultura ambiental y en la salud de las personas,
@@ -45,11 +45,11 @@ function Projects() {
                     </div>
                 </div>
               </Col>
-              <Col>
+              <Col lg={6}>
                 <div className='project-img-2' id='aquabin'>
                     <div className='project-img-text-2 text-end'>
                       <div>
-                        <a className='border-0 create-button' href='https://edu.abin.world/'> <img src={Eduabin} className='create-button-img'></img></a>
+                        <a className='border-0 create-button' href='https://edu.abin.world/' target='_blank'> <img src={Eduabin} className='create-button-img'></img></a>
                         <p className='text-light'>
                           Tiene el objetivo de llegar a ser una plataforma educativa diversificada con el fin de
                           repotenciar el estudio convencional de una manera innovadora para el emprendedor
@@ -58,27 +58,24 @@ function Projects() {
                         </p>
                       </div>
                     </div>
-                  
                 </div>
               </Col>
             </Row>
             <Row className='create-row'>
-              <Col >
+              <Col lg={6}>
                 <div className='project-img' id='gemmadei'>
-                  
                     <div className='project-img-text text-start'>
                       <div>
-                        <a className='border-0 create-button' href='https://abinhome.com/'><img src={AbinHome} className='create-button-img'></img></a>
+                        <a className='border-0 create-button' href='https://abinhome.com/' target='_blank'><img src={AbinHome} className='create-button-img'></img></a>
                         <p>
                         Proyecto de Bienes Raíces basada en la creación de una plataforma que servirá de
                         intermediación para los agentes inmobiliarios.
                         </p>
                       </div>
                     </div>
-                  
-                </div>   
+                </div>
               </Col>
-              <Col>
+              <Col lg={6}>
                 <div className='project-img-2' id='abinhome'>
                   <div className='project-img-text-2 text-end'>
                     <div>
@@ -94,7 +91,7 @@ function Projects() {
               </Col>
             </Row>
             <Row className='create-row'>
-              <Col >
+              <Col lg={6}>
                 <div className='project-img' id='croi'>
                   <div className='project-img-text text-start'>
                     <div>
@@ -108,7 +105,7 @@ function Projects() {
                   </div>
                 </div>   
               </Col>
-              <Col>
+              <Col lg={6}>
                 <div className='project-img-2' id='desing'>
                   <div className='project-img-text-2 text-end'>
                     <div>
@@ -123,11 +120,11 @@ function Projects() {
               </Col>
             </Row>
             <Row className='create-row'>
-              <Col >
+              <Col lg={6}>
                 <div className='project-img' id='kids'>
                     <div className='project-img-text text-start'>
                       <div>
-                        <a animate className='border-0 create-button' href='lotengo.io'><img src={Lotengo} className='create-button-img'></img></a>
+                        <a animate className='border-0 create-button' href='https://lotengo.io/' target='_blank'><img src={Lotengo} className='create-button-img'></img></a>
                         <p className='text-light'>
                         La única red de bodegueros de Latinoamérica proporcionamos a nuestros aliados
                         sistemas de gestión para su negocio, donde se integra de manera ordenada sus
@@ -137,12 +134,11 @@ function Projects() {
                     </div>
                 </div>   
               </Col>
-              <Col>
+              <Col lg={6}>
                 <div className='project-img-2' id='lotengo'>
-                  
                     <div className='project-img-text-2 text-end'>
                       <div>
-                        <a className='border-0 create-button' href="https://abin.world/kids2/"><img src={Kids} className='create-button-img'></img></a>
+                        <a className='border-0 create-button' href="https://abin.world/kids2/" target='_blank'><img src={Kids} className='create-button-img'></img></a>
                         <p className='text-light'>
                         Somos una organización corporativa que tiene el objetivo de educar a los niños en
                         el mundo del emprendimiento, mediante programas y la continua preparación
@@ -150,7 +146,6 @@ function Projects() {
                         </p>
                       </div>
                     </div>
-                  
                 </div>
               </Col>
             </Row>
@@ -160,20 +155,21 @@ function Projects() {
             <Col md={3}></Col>
             <Col md={6}>
               <div>
-                <div className='text-center '>
+                <div className='project-holding'>
                   <p className='project-text'>
-                  Este es solo el comienzo,
-                  nuestro holding sigue en 
-                  expansión y crecimiento.
+                    Este es solo el comienzo,
+                    nuestro holding sigue en
+                    expansión y crecimiento.
                   </p>
-                  <a href='#conocenos' className='project-a'>Conócenos</a>
+                  <div className='pt-4'>
+                    <a href='#conocenos' className='project-a'>CONOCE TODO NUESTRO HOLDING</a>
+                  </div>
                 </div>
               </div> 
             </Col>
             <Col md={3}></Col>
           </Row>
         </div>
-          
         </div>
   </div>;
 }

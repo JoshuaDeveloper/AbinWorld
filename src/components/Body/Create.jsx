@@ -19,12 +19,12 @@ function Create() {
                 </h1>
             </div>
         </div>
-        <div className='create-table-style pt-5 pb-5'>
+          <div className='create-table-style pt-5 pb-5'>
             <Row>
                 <Col  md={4} sm={12}>
                     <div className='create-col-style' id='albor'>
                         <div className='create-margin'>
-                            <a href='https://abin.world/albor/'>
+                            <a href='https://abin.world/albor/' target='_blank'>
                                 
                                 <div className='text-end'>
                                     <p className='create-p-title'>ALBOR</p>
@@ -45,7 +45,7 @@ function Create() {
                 <Col md={4} sm={12}>
                     <div className='create-col-style' id='mentor'>
                         <div className='create-margin'>
-                            <a href='https://abin.world/mentor/'>
+                            <a href='https://abin.world/mentor/' target='_blank'>
                                 <div className='text-end'>
                                     <p className='create-p-title'>MENTOR</p>
                                 </div>
@@ -64,7 +64,7 @@ function Create() {
                 <Col md={4} sm={12}>
                     <div className='create-col-style' id='developer'>
                         <div className='create-margin'>
-                            <a href='https://abin.world/developer/'>
+                            <a href='https://abin.world/developer/' target='_blank'>
                                 <div className='text-end'>
                                     <p className='create-p-title'>DEVELOPER</p>
                                 </div>

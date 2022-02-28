@@ -46,6 +46,8 @@
 
 
 #albor.create-col-style{
+    transition-property: background-image;
+    transition-duration: 2s;
     background-image: url('../../assets/images/albor_color.jpg');
     background-size: cover;
     min-height: 550px;
@@ -53,11 +55,15 @@
 }
 
 #albor:hover{
+    transition-property: background-image;
+    transition-duration: 2s;
     background-image: url('../../assets/images/albor_color2.jpg');
 }
 
 
 #mentor.create-col-style{
+    transition-property: background-image;
+    transition-duration: 2s;
     background-image: url('../../assets/images/developer_color.jpg');
     background-size: cover;
     min-height: 550px;
@@ -65,10 +71,14 @@
     
 }
 #mentor:hover{
+    transition-property: background-image;
+    transition-duration: 2s;
     background-image: url('../../assets/images/mentor_color2.jpg');
 }
 
 #developer.create-col-style{
+    transition-property: background-image;
+    transition-duration: 2s;
     background-image: url('../../assets/images/mentor_color.jpg');
     background-size: cover;
     min-height: 550px;
@@ -77,6 +87,8 @@
 }
 
 #developer:hover{
+    transition-property: background-image;
+    transition-duration: 2s;
     background-image: url('../../assets/images/developer_color3.jpg');
 }
 
@@ -97,6 +109,7 @@
     margin-left: 15%;
     padding-right: 3%;
     background-color: rgba(0, 0, 0, 0.349);
+    min-height: 300px;
     a{
         text-decoration: none;
     }
@@ -110,9 +123,12 @@
     .create-text{
         font-size: 4rem;
     }
+    .create-margin{
+        min-height: 200px;
+    }
     .create-text-h4-width{
         width: 100%;
-        text-align: center;
+        text-align: start;
     }
     #albor.create-col-style{
         background-image: url('../../assets/images/albor_color.jpg');

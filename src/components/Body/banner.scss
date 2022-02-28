@@ -7,10 +7,51 @@
     background-image: url('../../assets/images/portada_final.jpg');
     background-size: cover;
     height: 60rem;
+    width: 100vw;
     padding-inline: 5%;
-  a {
+
+  .re {
     font-family: metropolis-bold;
-    display:inline-block;
+    font-size:90px;
+    line-height:1.5em;
+    position:relative;
+    color:gray;
+    text-decoration: none;
+  }
+  .imaginando {
+    font-family: metropolis-bold;
+    font-size:90px;
+    line-height:1.5em;
+    position:relative;
+    color:gray;
+    text-decoration: none;
+  }
+  .educacion {
+    font-family: metropolis-bold;
+    font-size:90px;
+    line-height:1.5em;
+    position:relative;
+    color:gray;
+    text-decoration: none;
+  }
+  .perfecta {
+    font-family: metropolis-bold;
+    font-size:90px;
+    line-height:1.5em;
+    position:relative;
+    color:gray;
+    text-decoration: none;
+  }
+  .paratu {
+    font-family: metropolis-bold;
+    font-size:90px;
+    line-height:1.5em;
+    position:relative;
+    color:gray;
+    text-decoration: none;
+  }
+  .emprendimiento {
+    font-family: metropolis-bold;
     font-size:90px;
     line-height:1.5em;
     position:relative;
@@ -19,32 +60,115 @@
   }
 }
 
+.re:before {
+  content:"RE";
+  position:absolute;
+  width:0%;
+  height:1.5em;
+  overflow:hidden;
+  color:white;
+  transition:all 5s linear;
+}
 
-.text-efect{
+.imaginando:before {
+  content:"IMAGINANDO";
+  position:absolute;
+  width:0%;
+  height:1.5em;
+  overflow:hidden;
+  color:white;
+  transition:all 5s linear;
+}
+
+.educacion:before {
+  content:"LA\00a0 EDUCACIÓN";
+  position:absolute;
+  width:0%;
+  height:1.5em;
+  overflow:hidden;
+  color:white;
+  transition:all 5s linear;
+}
+.perfecta:before {
+  content:"PERFECTA";
+  position:absolute;
+  width:0%;
+  height:1.5em;
+  overflow:hidden;
+  color:white;
+  transition:all 5s linear;
+}
+
+.paratu:before {
+  content:"PARA\00a0 TU";
+  position:absolute;
+  width:0%;
+  height:1.5em;
+  overflow:hidden;
+  color:white;
+  transition:all 5s linear;
+}
+
+.emprendimiento:before {
+  content:"EMPRENDIMIENTO.";
+  position:absolute;
+  width:0%;
+  height:1.5em;
+  overflow:hidden;
+  color:white;
+  transition:all 5s linear;
 }
 
 .banner-style:hover{
-    a:before {
-      content:attr(title);
-      display:block;
-      position:absolute;
-      width:0%;
-      height:1.5em;
-      overflow:hidden;
-      color:white;
-      transition:all 5s linear;
-    }
-    a:hover:before {
-      width:100%;
-    }
+  .re:before {
+    width:100%;
+  }
+
+  .imaginando:before {
+    width:100%;
+  }
+
+  .educacion:before {
+    width:100%;
+  }
+
+  .perfecta:before {
+    width:100%;
+  }
+
+  .paratu:before {
+    width:100%;
+  }
+
+  .emprendimiento:before {
+    width:100%;
+  }
 }
 
 
 
 @media only screen and (max-width: 600px){
   .text-efect{
-    a{
-      font-size: 30px;
+    .re{
+      font-size: 40px;
     }
+    .imaginando{
+      font-size: 40px;
+    }
+    .educacion{
+      font-size: 40px;
+    }
+    .perfecta{
+      font-size: 40px;
+    }
+    .paratu{
+      font-size: 40px;
+    }
+    .emprendimiento{
+      font-size: 40px;
+    }
+  }
+  .banner-style{
+    height: 100vh;
   }
 }

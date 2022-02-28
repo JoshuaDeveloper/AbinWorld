@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import { Navbar,Offcanvas, Nav, Row, Col} from 'react-bootstrap';
 import LOGO from '../../assets/images/logo.png'
-import './header.scss'
+import '../Footer/header.scss'
 import 'animate.css'
 
 
@@ -13,11 +13,11 @@ export default function Header() {
     const [inArticle, setArticle] = useState(false);
 
   return <div className='header-style'>
-      <Navbar expand={false} className='px-4 header-style' variant='dark'>
+      <Navbar expand={false} className='px-4 header-style bg-opacity-10' variant='dark' fixed='top' >
         <Row className='w-100'>
             <Col md={4}></Col>
-            <Col md={4} className='text-center'><Navbar.Brand><img src={LOGO} className="img-logo"></img></Navbar.Brand></Col>
-            <Col md={4} className='text-end'><Navbar.Toggle aria-controls="offcanvasNavbar"/></Col>
+            <Col md={4} className='text-center' xs={6}><Navbar.Brand><img src={LOGO} className="img-logo"></img></Navbar.Brand></Col>
+            <Col md={4} className='text-end' xs={6}><Navbar.Toggle aria-controls="offcanvasNavbar"/></Col>
         </Row>
         <Navbar.Offcanvas
                 id="offcanvasNavbar"

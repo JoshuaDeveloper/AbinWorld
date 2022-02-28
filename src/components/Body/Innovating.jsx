@@ -13,8 +13,8 @@ function Innovating() {
             <div className='inn-div'>
               <div className='innovating_text '>
                   <a href='#abines'>Conoce nuestro Abines</a>
-                  <h2>Emprendedores de exito, que ya 
-                      despegaron con nuestra asesoria integral.
+                  <h2>Emprendedores de éxito, que ya
+                      despegaron con nuestra asesoría integral.
                   </h2>
               </div>
             </div>

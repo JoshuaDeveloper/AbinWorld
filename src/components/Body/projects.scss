@@ -1,4 +1,6 @@
-#eduabin.project-img{ 
+#eduabin.project-img{
+    transition-property: background-image;
+    transition-duration: 2.5s;
     height: 600px;
     width: 600px;
     background-image: url('../../assets/images/aquabin.png');
@@ -12,10 +14,14 @@
 }
 
 #eduabin:hover{
+    transition-property: background-image;
+    transition-duration: 2.5s;
     background-image: url('../../assets/images/aquabin_color.jpg');
 }
 
-#aquabin.project-img-2{ 
+#aquabin.project-img-2{
+    transition-property: background-image;
+    transition-duration: 2.5s;
     height: 600px;
     width: 600px;
     background-image: url('../../assets/images/eduabin.png');
@@ -28,10 +34,14 @@
 }
 
 #aquabin:hover{
+    transition-property: background-image;
+    transition-duration: 2.5s;
     background-image: url('../../assets/images/eduabin_color1.jpg');
 }
 
-#gemmadei.project-img{ 
+#gemmadei.project-img{
+    transition-property: background-image;
+    transition-duration: 2.5s;
     height: 600px;
     width: 600px;
     background-image: url('../../assets/images/abinhome.png');
@@ -43,10 +53,14 @@
 }
 
 #gemmadei:hover{
+    transition-property: background-image;
+    transition-duration: 2.5s;
     background-image: url('../../assets/images/home_color.jpg');
 }
 
-#abinhome.project-img-2{ 
+#abinhome.project-img-2{
+    transition-property: background-image;
+    transition-duration: 2.5s;
     height: 600px;
     width: 600px;
     background-image: url('../../assets/images/gemmadei.png');
@@ -58,11 +72,14 @@
 }
 
 #abinhome:hover{
+    transition-property: background-image;
+    transition-duration: 2.5s;
     background-image: url('../../assets/images/gemmadei_color.jpg');
 }
 
-
-#croi.project-img{ 
+#croi.project-img{
+    transition-property: background-image;
+    transition-duration: 2.5s;
     height: 600px;
     width: 600px;
     background-image: url('../../assets/images/desing.png');
@@ -74,10 +91,14 @@
 }
 
 #croi:hover{
+    transition-property: background-image;
+    transition-duration: 2.5s;
     background-image: url('../../assets/images/design_color.jpg');
 }
 
-#desing.project-img-2{ 
+#desing.project-img-2{
+    transition-property: background-image;
+    transition-duration: 2.5s;
     height: 600px;
     width: 600px;
     background-image: url('../../assets/images/croi.png');
@@ -89,10 +110,14 @@
 }
 
 #desing:hover{
+    transition-property: background-image;
+    transition-duration: 2.5s;
     background-image: url('../../assets/images/croi_color.jpg');
 }
 
-#kids.project-img{ 
+#kids.project-img{
+    transition-property: background-image;
+    transition-duration: 2.5s;
     height: 600px;
     width: 600px;
     background-image: url('../../assets/images/lotengo.png');
@@ -104,10 +129,14 @@
 }
 
 #kids:hover{
+    transition-property: background-image;
+    transition-duration: 2.5s;
     background-image: url('../../assets/images/lotengo_color.jpg');
 }
 
-#lotengo.project-img-2{ 
+#lotengo.project-img-2{
+    transition-property: background-image;
+    transition-duration: 2.5s;
     height: 600px;
     width: 600px;
     background-image: url('../../assets/images/kids.png');
@@ -119,6 +148,8 @@
 }
 
 #lotengo:hover{
+    transition-property: background-image;
+    transition-duration: 2.5s;
     background-image: url('../../assets/images/kids_color.jpg');
 }
 
@@ -189,18 +220,39 @@
     padding-inline: 5%;
 }
 
+.project-holding{
+    text-align: center;
+}
+
+@media only screen and (max-width: 1200px){
+    #eduabin.project-img{
+        max-width: 500px;
+        max-height: 500px;
+    }
+
+    #aquabin.project-img-2{
+        max-width: 500px;
+        max-height: 500px;
+    }
+}
+
+
 @media only screen and (max-width: 600px){
     .create-text-h1{
         max-width: 100% !important;
+        text-align: end;
     }
-    #eduabin.project-img{
-        max-height: 300px;
-        max-width: 300px;
-        background-image: url('../../assets/images/aquabin.png');
+
+    .create-row{
+        margin-top: 20px;
     }
 
     .create-button-img{
         max-width: 100px;
+    }
+
+    .project-holding{
+        text-align: end;
     }
 
     #eduabin.project-img{
@@ -208,7 +260,7 @@
         width: 300px;
         background-image: url('../../assets/images/aquabin.png');
         display: flex;
-        margin: 0 auto;
+        margin: 20px auto;
         a{
             text-decoration: none;
             padding: 0;
@@ -244,7 +296,7 @@
         width: 300px;
         background-image: url('../../assets/images/gemmadei.png');
         display: flex;
-        margin: 0 auto;
+        margin: 20px auto;
         a{
             text-decoration: none;
         }
@@ -266,7 +318,7 @@
         width: 300px;
         background-image: url('../../assets/images/croi.png');
         display: flex;
-        margin: 0 auto;
+        margin: 20px auto;
         a{
             text-decoration: none;
         }
@@ -310,7 +362,7 @@
         width: 300px;
         background-image: url('../../assets/images/kids.png');
         display: flex;
-        margin: 0 auto;
+        margin: 20px auto;
         a{
             text-decoration: none;
         }

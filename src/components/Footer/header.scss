@@ -33,13 +33,13 @@ $background-articulos-2 : '../../assets/images/articulos_2.jpg';
 }
 
 .header-style{
-    background-color: black;
+    background-color: transparent;
 }
 
 
 .navbar-dark .navbar-toggler{
     border: none;
-    border-color: disabled;
+
     color: transparent;
 }
 
@@ -51,7 +51,6 @@ $background-articulos-2 : '../../assets/images/articulos_2.jpg';
     width: 40px;
     height: 40px;
     background: transparent url('../../assets/images/menu_white.png');
-    opacity: none;
 }
 
 .btn-close{
